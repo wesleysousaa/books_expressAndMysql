@@ -1,0 +1,62 @@
+body {
+    background-color: rgb(250, 245, 239);
+    text-align: center;
+    
+}
+
+h1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+    color: blueviolet;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    margin: 5px;
+    font-size: 20px;
+    text-align: center;
+    align-items: center;
+    border-bottom: 1px solid black;
+    padding: 5px;
+}
+
+.input {
+    
+    width: 400px;
+    height: 30px;
+    margin-bottom: 10px;
+}
+
+ul {
+    display: inline-block;
+    text-align: left;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+li {
+    padding: 5px;
+    margin: 5px;
+    border-bottom: 2px solid black;
+    font-size: 20px;
+}
+
+.book-page {
+
+    margin: 0px;
+    border-bottom: 1px solid black;
+    
+}
+
+.menu {
+    font-size: 20px;
+    padding: 5px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}

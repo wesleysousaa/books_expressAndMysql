@@ -1,0 +1,15 @@
+<h1>Cadastrar livro</h1>
+<form action="/books/insertbook" method="POST" class="form">
+    <input type="text" name="titulo" placeholder="Digite o nome do livro" class="input">
+    <input type="number" name="qtdpages" placeholder="Numero de páginas" class="input">
+    <input type="submit" value="Cadastrar" >
+</form>
+
+{{#if livros}}
+    <h1>Livros no banco</h1>
+    <ul>
+        {{#each livros}}
+                <a href="/books/{{this.idbooks}}"><li>{{this.titulo}}, {{this.qtd_pages}} páginas.</li></a>
+        {{/each}}
+    </ul>
+{{/if}}

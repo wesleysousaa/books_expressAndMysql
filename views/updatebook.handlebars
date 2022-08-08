@@ -1,0 +1,7 @@
+<h1>Editar livro</h1>
+<form action="/books/updatebook/{{book.idbooks}}" method="POST" class="form">
+    <input type="text" name="titulo" placeholder="Digite o nome do livro" class="input" value="{{book.titulo}}">
+    <input type="number" name="qtdpages" placeholder="Numero de páginas" class="input" value="{{book.qtd_pages}}">
+    
+    <input type="submit" value="Salvar">
+</form>
